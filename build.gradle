@@ -1,0 +1,29 @@
+plugins {
+    id 'com.chillycheesy.modulo-application' version '0.0.3'
+}
+
+group 'com.chillycheesy'
+version '1.0-SNAPSHOT'
+
+module {
+    moduleName = 'JockModule'
+    version = '1.0-SNAPSHOT'
+    authors = ['Chilly Cheesy']
+    main = 'com.chillycheesy.modulo.MyAwesomeModule'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'com.chillycheesy:modulo-api:BINKS-1.0.1'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
