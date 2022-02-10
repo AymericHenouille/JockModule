@@ -9,10 +9,8 @@ public class MyAwesomeModulePageManager {
     public void registerPages(MyAwesomeModule module) {
         final PageManager pageManager = ModuloAPI.getPage().getPageManager();
 
-        final Page jock = new Page("jock", "Pas de Benoit ici :c ...");
-        final ResourcePage resourcePage = new ResourcePage("benoit", "web");
-        jock.addSubPage(resourcePage);
-        pageManager.registerItem(module, jock);
+        final ResourcePage jokePage = new ResourcePage("joke", "web");
+        pageManager.registerItem(module, jokePage);
     }
 
 }

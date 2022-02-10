@@ -1,4 +1,4 @@
-name: MyAwesomeModule
+name: JockModule
 version: 1.0-SNAPSHOT
 authors: [Chilly Cheesy]
 main: com.chillycheesy.modulo.MyAwesomeModule

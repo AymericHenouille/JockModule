@@ -1,3 +1,3 @@
-# Jock Module
+# Joke Module
 
-Build with modulo framework
+Build with modulo framework.
