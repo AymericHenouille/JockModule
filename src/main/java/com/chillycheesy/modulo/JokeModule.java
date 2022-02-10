@@ -3,7 +3,7 @@ package com.chillycheesy.modulo;
 import com.chillycheesy.modulo.modules.ModuleAdapter;
 import com.chillycheesy.modulo.pages.MyAwesomeModulePageManager;
 
-public class MyAwesomeModule extends ModuleAdapter {
+public class JokeModule extends ModuleAdapter {
 
     private MyAwesomeModulePageManager pageManager;
 

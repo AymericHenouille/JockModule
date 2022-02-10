@@ -1,6 +1,6 @@
-name: JockModule
+name: JokeModule
 version: 1.0-SNAPSHOT
 authors: [Chilly Cheesy]
-main: com.chillycheesy.modulo.MyAwesomeModule
+main: com.chillycheesy.modulo.JokeModule
 dependencies: []
 softDependencies: []
