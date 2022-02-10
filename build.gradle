@@ -6,7 +6,7 @@ group 'com.chillycheesy'
 version '1.0-SNAPSHOT'
 
 module {
-    moduleName = 'JockModule'
+    moduleName = 'JokeModule'
     version = '1.0-SNAPSHOT'
     authors = ['Chilly Cheesy']
     main = 'com.chillycheesy.modulo.MyAwesomeModule'
