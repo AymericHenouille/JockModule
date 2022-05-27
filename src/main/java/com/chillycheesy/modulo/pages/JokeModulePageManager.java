@@ -2,9 +2,9 @@ package com.chillycheesy.modulo.pages;
 
 import com.chillycheesy.modulo.ModuloAPI;
 import com.chillycheesy.modulo.JokeModule;
-import com.chillycheesy.modulo.pages.subpages.ResourcePage;
+import com.chillycheesy.modulo.pages.natif.ResourcePage;
 
-public class MyAwesomeModulePageManager {
+public class JokeModulePageManager {
 
     public void registerPages(JokeModule module) {
         final PageManager pageManager = ModuloAPI.getPage().getPageManager();

@@ -1,15 +1,15 @@
 package com.chillycheesy.modulo;
 
-import com.chillycheesy.modulo.modules.ModuleAdapter;
-import com.chillycheesy.modulo.pages.MyAwesomeModulePageManager;
+import com.chillycheesy.modulo.modules.Module;
+import com.chillycheesy.modulo.pages.JokeModulePageManager;
 
-public class JokeModule extends ModuleAdapter {
+public class JokeModule extends Module {
 
-    private MyAwesomeModulePageManager pageManager;
+    private JokeModulePageManager pageManager;
 
     @Override
     protected void onLoad() {
-        pageManager = new MyAwesomeModulePageManager();
+        pageManager = new JokeModulePageManager();
     }
 
     @Override
@@ -17,4 +17,6 @@ public class JokeModule extends ModuleAdapter {
         pageManager.registerPages(this);
     }
 
+    @Override
+    protected void onStop() { }
 }

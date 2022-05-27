@@ -1,15 +1,20 @@
 plugins {
-    id 'com.chillycheesy.modulo-application' version '0.0.3'
+    id 'com.chillycheesy.modulo-application' version '1.1.0'
 }
 
 group 'com.chillycheesy'
 version '1.0-SNAPSHOT'
+
+ext {
+    modulo_version = 'BINKS-0.1.2'
+}
 
 module {
     moduleName = 'JokeModule'
     version = '1.0-SNAPSHOT'
     authors = ['Chilly Cheesy']
     main = 'com.chillycheesy.modulo.JokeModule'
+    moduloVersion = modulo_version
 }
 
 repositories {
@@ -18,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.chillycheesy:modulo-api:BINKS-1.0.1'
+    implementation "com.chillycheesy:modulo-api:$modulo_version"
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
